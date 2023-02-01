@@ -1,0 +1,17 @@
+import pandas as pd
+
+Primer dataset es sobre los juegos existentes de Playstation
+
+ds1 = pd.read_csv('/content/playstation_4_games.csv')
+
+ds1
+
+Este segundo dataset trata sobre la segmentacion de los usuarios de tarjetas de credito
+
+ds2 = pd.read_csv('/content/BankChurners.csv')
+
+ds2
+
+Y el ultimo dataset es sobre las peliculas mejor puntuadas de la plataforma Rotten Tomatoes
+
+pd.read_csv('/content/rotten_tomatoes_top_movies.csv')
